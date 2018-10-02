@@ -1753,3 +1753,7 @@ body {padding-right: 0px !important;}
   background-color: black;
   text-align: center;
 }
+  
+  .show_name:hover {
+    background: <img src="" alt="IGM-AVATAR"> no-repeat;
+  }
