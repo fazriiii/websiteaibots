@@ -1,0 +1,28 @@
+.lightGray {
+	background-color: rgb(211,211,211,0.3);
+}
+
+.hovermember {
+	background-color: white;
+}
+
+div.memberpic {
+	display: none;
+}
+
+div.memberpic img {
+	-webkit-filter: blur(1.4px); /* Safari 6.0 - 9.0 */
+    filter: blur(1.4px);
+}
+
+div.borderAnimate {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-play-state: play; /* Safari 4.0 - 8.0 */
+    animation: mymove 3s;
+    animation-play-state: play;
+    animation-iteration-count: infinite;
+}
