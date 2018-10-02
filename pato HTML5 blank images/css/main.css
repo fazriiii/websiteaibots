@@ -1333,13 +1333,57 @@ body {padding-right: 0px !important;}
   background-color: transparent;
 }
 
-#modal-video-01 {
-  background-color: rgba(0,0,0,0.8);
+#Explore-End-To-End {
+  background-color: rgba(0,0,0,0.5);
   z-index: 1250;
   
 }
 
-#modal-video-01 .modal-dialog {
+#Explore-End-To-End .modal-dialog {
+  max-width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#Explore-Prime-Focus-on {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1250;
+  
+}
+
+#Explore-Prime-Focus-on .modal-dialog {
+  max-width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#Explore-Raising-Your-Digital {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1250;
+  
+}
+
+#Explore-Raising-Your-Digital .modal-dialog {
   max-width: 100% !important;
   height: 100% !important;
   padding: 0;
@@ -1356,7 +1400,7 @@ body {padding-right: 0px !important;}
 }
 
 .wrap-video-mo-01 {
-  width: 854px;
+  width: 75em;
   height: auto;
   position: relative;
   margin: 15px;
