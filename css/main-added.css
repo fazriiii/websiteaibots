@@ -26,3 +26,21 @@ div.borderAnimate {
     animation-play-state: play;
     animation-iteration-count: infinite;
 }
+
+.button_explore {
+    border: 2px solid black;
+    color: black;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: Monseratt;
+    border-radius: 8px;
+}
+
+.button_explore:hover {
+    border: 2px solid #ec1d25;
+}
