@@ -27,6 +27,7 @@ div.borderAnimate {
     animation-iteration-count: infinite;
 }
 
+<<<<<<< HEAD
 /*
 .OurPeopleWrapper {
 	display: block;
@@ -86,4 +87,22 @@ div.borderAnimate {
     -webkit-transform: scale(2.1);
     left:-150px;
     top:-100px;
+=======
+.button_explore {
+    border: 2px solid black;
+    color: black;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: Monseratt;
+    border-radius: 8px;
+}
+
+.button_explore:hover {
+    border: 2px solid #ec1d25;
+>>>>>>> 7a5f3f41551740a5371c39d1c6800c3170fe463c
 }
