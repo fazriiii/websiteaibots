@@ -1801,3 +1801,7 @@ body {padding-right: 0px !important;}
   .show_name:hover {
     background: <img src="" alt="IGM-AVATAR"> no-repeat;
   }
+
+  .fw-600 {
+    font-weight: 600;
+  }
