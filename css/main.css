@@ -1769,3 +1769,15 @@ body {padding-right: 0px !important;}
   .fw-600 {
     font-weight: 600;
   }
+
+  .contact-border {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  .ourpeople-txt-border {
+     border: 2px solid #ec1d25; 
+     border-radius: 5px;
+     padding: 3px;
+  }
