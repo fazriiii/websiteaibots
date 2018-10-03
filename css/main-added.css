@@ -27,14 +27,12 @@ div.borderAnimate {
     animation-iteration-count: infinite;
 }
 
-<<<<<<< HEAD
-/*
 .OurPeopleWrapper {
 	display: block;
 	overflow: hidden;
 }
-*/
 
+/*
 .OurPeopleWrapper {
 	width: 400px;
     height: 267px;
@@ -42,8 +40,8 @@ div.borderAnimate {
     overflow:hidden;
     position:relative;
 }
+*/
 
-/*
 .InnovateFocus img {
     width:100%;
     -webkit-transition: all 1s;
@@ -56,6 +54,7 @@ div.borderAnimate {
     -ms-transform: scale(1);
     transition: all 1s;
     transform: scale(1);
+    position:relative;
     left:0;
     top:0;
 }
@@ -66,10 +65,38 @@ div.borderAnimate {
   	-moz-transform: scale(2);
   	-ms-transform: scale(2);
 	transform: scale(2);
-	left:-15em;
-    top: 8em;
-    */
+	left:-13em;
+    top: 5em;
+}
 
+.OurPeopleFocus img {
+    width:100%;
+    -webkit-transition: all 1s;
+    -webkit-transform: scale(1);
+    -o-transition: all 1s;
+    -o-transform: scale(1);
+    -moz-transition: all 1s;
+    -moz-transform: scale(1);
+    -ms-transition: all 1s;
+    -ms-transform: scale(1);
+    transition: all 1s;
+    transform: scale(1);
+    position:relative;
+    left:0;
+    top:0;
+}
+
+.OurPeopleFocus:hover img {
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    left: -16em;
+    top: 8em;
+}
+
+/*
 .InnovateFocus img {
 	background-size: 400px 267px;
     background-position:center;
@@ -85,9 +112,11 @@ div.borderAnimate {
 .InnovateFocus:hover img {
 	transform: scale(2.1);
     -webkit-transform: scale(2.1);
-    left:-150px;
-    top:-100px;
-=======
+    left:-200px;
+    top:100px;
+}
+*/
+
 .button_explore {
     border: 2px solid black;
     color: black;
@@ -104,5 +133,4 @@ div.borderAnimate {
 
 .button_explore:hover {
     border: 2px solid #ec1d25;
->>>>>>> 7a5f3f41551740a5371c39d1c6800c3170fe463c
 }
