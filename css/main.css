@@ -1713,17 +1713,18 @@ body {padding-right: 0px !important;}
 /*classchange*/
   .class4industry{
     text-transform: uppercase;
-    color: white
+    color: white;
   }
 
   .title_industry{
 
     position: relative;
-    display: inline-block;
+    display: block;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
+    background-color: #464646;
 
   }
 
