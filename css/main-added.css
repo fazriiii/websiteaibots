@@ -135,6 +135,7 @@ div.borderAnimate {
     border: 2px solid #ec1d25;
 }
 
+<<<<<<< HEAD
 #myVideo {
     position: fixed;
     right: 0;
@@ -142,3 +143,19 @@ div.borderAnimate {
     width: 100%;
 
 }
+=======
+.contactus-header {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.contactus-p-title {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.contactus-p {
+    font-size: 14px;
+    line-height: 20px;
+}
+>>>>>>> 9d913d908443494747a57ac941515bd200c2e743
