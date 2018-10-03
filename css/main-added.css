@@ -134,3 +134,18 @@ div.borderAnimate {
 .button_explore:hover {
     border: 2px solid #ec1d25;
 }
+
+.contactus-header {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.contactus-p-title {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.contactus-p {
+    font-size: 14px;
+    line-height: 20px;
+}
