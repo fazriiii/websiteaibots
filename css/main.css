@@ -1806,3 +1806,8 @@ body {padding-right: 0px !important;}
   .fw-600 {
     font-weight: 600;
   }
+
+  .contact-border {
+    border: 3px solid black;
+    border-radius: 50%;
+  }
