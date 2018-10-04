@@ -3,18 +3,28 @@
 }
 
 .hovermember {
-	background-color: lightgray;
+	background-color: silver;
 }
 
-/*
 div.memberpic {
+    /*
 	display: none;
+    */
+    position: relative;
 }
-*/
 
 div.memberpic img {
 	-webkit-filter: blur(5px);
     filter: blur(5px);
+}
+
+div.members {
+    position: absolute;
+    top:25px;
+}
+
+.memberstext {
+    color: white;
 }
 
 
@@ -162,3 +172,7 @@ div.borderAnimate {
 }
 
 /* --- */
+/* === CSS FILTER EFFECTS === */
+.video-mo-01 .modalBlur > *:not(.modal) {
+  -webkit-filter: blur(10px);
+}
