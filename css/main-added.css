@@ -3,17 +3,20 @@
 }
 
 .hovermember {
-	background-color: white;
+	background-color: lightgray;
 }
 
+/*
 div.memberpic {
 	display: none;
 }
+*/
 
 div.memberpic img {
-	-webkit-filter: blur(1.4px); /* Safari 6.0 - 9.0 */
-    filter: blur(1.4px);
+	-webkit-filter: blur(5px);
+    filter: blur(5px);
 }
+
 
 div.borderAnimate {
     width: 100px;

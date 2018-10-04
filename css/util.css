@@ -3661,6 +3661,8 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
   	-ms-transform: scale(1.1);
   	-o-transform: scale(1.1);
 	transform: scale(1.1);
+	-webkit-filter: blur(0px);
+    filter: blur(0px);
 }
 
 
