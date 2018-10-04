@@ -176,3 +176,8 @@ div.borderAnimate {
 .video-mo-01 .modalBlur > *:not(.modal) {
   -webkit-filter: blur(10px);
 }
+
+.menupad {
+    padding-left: 100px;
+    padding-right: 80px;
+}
