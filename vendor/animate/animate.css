@@ -192,8 +192,8 @@
   }
 
   20% {
-    -webkit-transform: scale3d(1.50, 1.50, 1.50);
-    transform: scale3d(1.50, 1.50, 1.50);
+    -webkit-transform: scale3d(1.35, 1.35, 1.35);
+    transform: scale3d(1.35, 1.35, 1.35);
   }
 
   40% {
@@ -202,8 +202,8 @@
   }
 
   60% {
-    -webkit-transform: scale3d(1.50, 1.50, 1.50);
-    transform: scale3d(1.50, 1.50, 1.50);
+    -webkit-transform: scale3d(1.35, 1.35, 1.35);
+    transform: scale3d(1.35, 1.35, 1.35);
   }
 
   80% {
