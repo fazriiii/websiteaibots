@@ -146,14 +146,6 @@ div.borderAnimate {
 
 .button_explore:hover {
     border: 2px solid #ec1d25;
-
-}
-
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .contactus-header {
