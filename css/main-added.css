@@ -1,20 +1,20 @@
 .lightGray {
-	background-color: rgb(211,211,211,0.3);
+    background-color: rgb(211,211,211,0.3);
 }
 
 .hovermember {
-	background-color: silver;
+    background-color: silver;
 }
 
 div.memberpic {
     /*
-	display: none;
+    display: none;
     */
     position: relative;
 }
 
 div.memberpic img {
-	-webkit-filter: blur(5px);
+    -webkit-filter: blur(5px);
     filter: blur(5px);
 }
 
@@ -41,13 +41,13 @@ div.borderAnimate {
 }
 
 .OurPeopleWrapper {
-	display: block;
-	overflow: hidden;
+    display: block;
+    overflow: hidden;
 }
 
 /*
 .OurPeopleWrapper {
-	width: 400px;
+    width: 400px;
     height: 267px;
     border: 1px solid black;
     overflow:hidden;
@@ -58,7 +58,7 @@ div.borderAnimate {
 .InnovateFocus img {
     width:100%;
     -webkit-transition: all 1s;
-	-webkit-transform: scale(1);
+    -webkit-transform: scale(1);
     -o-transition: all 1s;
     -o-transform: scale(1);
     -moz-transition: all 1s;
@@ -73,12 +73,12 @@ div.borderAnimate {
 }
 
 .InnovateFocus:hover img {
-	-webkit-transform: scale(2);
-	-o-transform: scale(2);
-  	-moz-transform: scale(2);
-  	-ms-transform: scale(2);
-	transform: scale(2);
-	left:-13em;
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    left:-13em;
     top: 5em;
 }
 
@@ -111,7 +111,7 @@ div.borderAnimate {
 
 /*
 .InnovateFocus img {
-	background-size: 400px 267px;
+    background-size: 400px 267px;
     background-position:center;
     transition: all 1s ease;
     width:100%;
@@ -123,7 +123,7 @@ div.borderAnimate {
 }
 
 .InnovateFocus:hover img {
-	transform: scale(2.1);
+    transform: scale(2.1);
     -webkit-transform: scale(2.1);
     left:-200px;
     top:100px;
@@ -171,8 +171,90 @@ div.borderAnimate {
     line-height: 20px;
 }
 
-/* --- */
-/* === CSS FILTER EFFECTS === */
-.video-mo-01 .modalBlur > *:not(.modal) {
-  -webkit-filter: blur(10px);
+/* Specify or take most top classes first, then narrow to nearest class, and then to target element*/
+.animsition .exploreslider p {
+    color: white;
+}
+
+body.modal-open .modalBackground {
+    opacity: 0.35;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+     filter: blur(10px);
+ }
+
+ .animsition .wrap_menu li a.active,
+ .animsition .wrap_menu li.dropdown a.active {
+    color:#ec1d25;
+    
+ }
+
+ .animsition .wrap_menu li.dropdown div.dropdown-content a.active {
+    color:#ec1d25;
+    background-color: #ddd;
+ }
+
+/* Loading animation */
+.circle {
+    background-color: transparent;
+    border:5px solid rgba(0,183,229,0.9);
+    opacity:.9;
+    border-right:5px solid rgba(0,0,0,0);
+    border-left:5px solid rgba(0,0,0,0);
+    border-radius:50px;
+    box-shadow: 0 0 35px #2187e7;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+    -moz-animation:spinPulse 1s infinite ease-in-out;
+    -webkit-animation:spinPulse 1s infinite linear;
+    animation:spinPulse 1s infinite linear; /*standardize for all browsers*/
+}
+.circle1 {
+    background-color: transparent;
+    border:5px solid rgba(0,183,229,0.9);
+    opacity:.9;
+    border-left:5px solid rgba(0,0,0,0);
+    border-right:5px solid rgba(0,0,0,0);
+    border-radius:50px;
+    box-shadow: 0 0 15px #2187e7; 
+    width:30px;
+    height:30px;
+    margin:0 auto;
+    position:relative;
+    top:-40px;
+    -moz-animation:spinoffPulse 1s infinite linear;
+    -webkit-animation:spinoffPulse 1s infinite linear;
+    animation:spinoffPulse 1s infinite linear; /*standardize for all browsers*/
+}
+
+@-moz-keyframes spinPulse {
+    0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+    50% { -moz-transform:rotate(145deg); opacity:1; }
+    100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+    0% { -moz-transform:rotate(0deg); }
+    100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+    0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+    50% { -webkit-transform:rotate(145deg); opacity:1;}
+    100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+    100% { -webkit-transform:rotate(360deg); }
+}
+/*standardize for all browsers*/
+@keyframes spinPulse {
+    0% { transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+    50% { transform:rotate(145deg); opacity:1;}
+    100% { transform:rotate(-320deg); opacity:0; }
+}
+@keyframes spinoffPulse {
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
 }

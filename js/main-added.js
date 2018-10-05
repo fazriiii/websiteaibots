@@ -9,4 +9,14 @@ $(function(){
                    );
 */
 
+/* animate only work with <div> */
+	$(".readmore-animate").hover(function () {
+            $(this).addClass('animated pulse');
+			}, function() {
+			    $(this).removeClass('animated pulse');
+			});
+
+
+
+
 });

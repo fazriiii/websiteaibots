@@ -13,7 +13,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
@@ -32,11 +32,13 @@
 <!--===============================================================================================-->
 <!-- Css-added -->
 	<link rel="stylesheet" type="text/css" href="css/main-added.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
-
+<div class="modalBackground">
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
@@ -56,7 +58,7 @@
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
-									<a href="index.html">How We Help Clients</a>
+									<a href="index.html" class="active">How We Help Clients</a>
 								</li>
 
 								<li>
@@ -113,12 +115,13 @@
 							
 						</h2>
 
+						<!--
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
-							<!-- Button1 -->
 							<a class="btn1 flex-c-m size1 txt3 trans-0-4" data-toggle="modal" data-target="#Explore-End-To-End">
 								EXPLORE
 							</a>
 						</div>
+					    -->
 					</div>
 				</div>
 
@@ -133,12 +136,6 @@
 							<h5 class="skipone" style="color:white"><b>Prime Focus on Transforming Culture and Building Capabilites</b></h5>
 						</h2>
 
-						<div class="wrap-btn-slide1 animated visible-false" data-appear="slideInUp">
-							<!-- Button1 -->
-							<a class="btn1 flex-c-m size1 txt3 trans-0-4" data-toggle="modal" data-target="#Explore-Prime-Focus-on">
-								EXPLORE
-							</a>
-						</div>
 					</div>
 				</div>
 
@@ -154,12 +151,6 @@
 							<h5 class="skipone" style="color:white"><b>We know how technology and digital trends are transforming your environment.</br> We’ll uncover where the real value exists for you.</b></h5>
 						</h2>
 
-						<div class="wrap-btn-slide1 animated visible-false" data-appear="rotateIn">
-							<!-- Button1 -->
-							<a class="btn1 flex-c-m size1 txt3 trans-0-4" data-toggle="modal" data-target="#Explore-Raising-Your-Digital">
-								EXPLORE
-							</a>
-						</div>
 					</div>
 				</div>
 
@@ -175,12 +166,6 @@
 							
 						</h2>
 
-						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
-							<!-- Button1 -->
-							<a href="slider4.html" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								EXPLORE
-							</a>
-						</div>
 					</div>
 				</div>
 
@@ -227,7 +212,7 @@
 				</div>
 
 				<div class="col-md-6 p-b-30 justify-content-center">
-					<div class="wrap-pic-welcome bo-rad-10 hov-img-zoom m-l-r-auto" style="max-width: 300px;overflow: visible;">
+					<div class="wrap-pic-welcome bo-rad-10 hov-img-zoom animated infinite bounce m-l-r-auto" style="max-width: 300px;overflow: visible;">
 						<img src="images/logo_black.png" alt="IMG-OUR">
 					</div>
 				</div>
@@ -267,11 +252,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/Transforming.jpg" alt="IMG-INTRO"></a>
+								<a><img src="images/Transforming.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<p href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<p><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									Transforming Culture and Building Capabilities
 								</h4></p>
 
@@ -279,10 +264,12 @@
 									Organizations that focus on transforming culture and building capabilities during a transformation are 2.5 times more likely to succeed.
 								</p>
 
-								<a href="#" class="txt4">
-									READ MORE
-									<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
+									<a class="txt4 hov-pointer" data-toggle="modal" data-target="#Explore-Prime-Focus-on">
+										<div class="readmore-animate color0-hov"> 
+											READ MORE 
+											<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
+										</div>
+									</a>
 							</div>
 						</div>
 					</div>
@@ -291,11 +278,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/Urban-city.jpg" alt="IMG-INTRO"></a>
+								<a><img src="images/Urban-city.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<p href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<p><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									Raising your Digital Quotient
 								</h4></p>
 
@@ -303,10 +290,12 @@
 									Following the leader is a dangerous game. It’s better to focus on building an organization and culture that can realize the strategy that’s right for you.
 								</p>
 
-								<a href="#" class="txt4">
-									READ MORE
-									<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
+									<a class="txt4 hov-pointer" data-toggle="modal" data-target="#Explore-Raising-Your-Digital">
+										<div class="readmore-animate color0-hov"> 
+											READ MORE 
+											<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
+										</div>
+									</a>
 							</div>
 						</div>
 					</div>
@@ -315,11 +304,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/end-to-end.jpg" alt="IMG-INTRO"></a>
+								<a><img src="images/end-to-end.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<p href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<p><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									End to End Journey Redesigned
 								</h4></p>
 
@@ -327,10 +316,12 @@
 									We start by identifying and assessing the most valuable customer journeys.
 								</p>
 
-								<a href="#" class="txt4">
-									READ MORE
-									<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
+									<a class="txt4 hov-pointer" data-toggle="modal" data-target="#Explore-End-To-End">
+										<div class="readmore-animate color0-hov"> 
+											READ MORE 
+											<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
+										</div>
+									</a>
 							</div>
 						</div>
 					</div>
@@ -362,6 +353,8 @@
 		</span>
 	</div>
 
+</div>
+
 	<!-- Container Selection1 -->
 	<div id="dropDownSelect1"></div>
 
@@ -374,7 +367,7 @@
 			<div class="wrap-video-mo-01">
 				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
 				<div class="video-mo-01">
-					<iframe src="slider1.html" allowfullscreen></iframe>
+					<iframe src="slider1.html" allowfullscreen allowtransparency="true"></iframe>
 				</div>
 			</div>
 		</div>
@@ -399,7 +392,7 @@
 			<div class="wrap-video-mo-01">
 				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
 				<div class="video-mo-01">
-					<iframe src="slider2.html" allowfullscreen></iframe>
+					<iframe src="slider2.html" allowfullscreen allowtransparency="true"></iframe>
 				</div>
 			</div>
 		</div>
