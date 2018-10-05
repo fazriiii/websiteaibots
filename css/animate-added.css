@@ -1,24 +1,3 @@
-button {
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  margin: 1em;
-  padding: 1em 2em;
-  box-shadow: inset 0 0 0 2px #f45e61;
-  color: #f45e61;
-  font-size: inherit;
-  font-weight: 700;
-  position: relative;
-  vertical-align: middle;
-}
-button::before, button::after {
-  box-sizing: inherit;
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
 .draw {
   transition: color 0.25s;
 }
@@ -172,28 +151,4 @@ button::before, button::after {
   border-top: 2.5em solid #f45e61;
   border-left-width: 2.5em;
   border-right-width: 2.5em;
-}
-
-/* Page styling */
-html {
-  background: #fefefe;
-}
-
-body {
-  background: #fefefe;
-  color: #4b507a;
-  font: 300 24px/1.5 Lato, sans-serif;
-  margin: 1em auto;
-  max-width: 36em;
-  padding: 1em 1em 2em;
-  text-align: center;
-}
-
-.buttons {
-  isolation: isolate;
-}
-
-h1 {
-  font-weight: 300;
-  font-size: 2.5em;
 }

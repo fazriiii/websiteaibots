@@ -261,16 +261,3 @@ body.modal-open .modalBackground {
 
 /* --- */
 /* === CSS FILTER EFFECTS === */
-.video-mo-01 .modalBlur > *:not(.modal) {
-  -webkit-filter: blur(10px);
-}
-
-.menupad {
-    padding-left: 100px;
-    padding-right: 80px;
-}
-
-.vid {
-    width: 100%;
-    height: auto;
-}
