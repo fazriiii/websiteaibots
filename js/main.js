@@ -154,6 +154,10 @@
             $(logo).attr('src',linkLogo2);
             $(header).addClass('header-fixed');
         }
+        else if($(this).scrollTop() > 5 && $(this).width() <= 576) {
+            $(logo).attr('src',linkLogo2);
+            $(header).addClass('header-fixed');
+        }
         else {
             $(header).removeClass('header-fixed');
             $(logo).attr('src',linkLogo1);

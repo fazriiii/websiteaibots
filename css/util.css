@@ -3371,6 +3371,22 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.8;
 }
 
+.txt36 a {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.8;
+	letter-spacing: 2px;
+}
+
+.txt37 a {
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 2;
+	color:black;
+}
+
 
 /*[ Color ]
 -----------------------------------------------------------

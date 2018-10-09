@@ -1,0 +1,33 @@
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+      height: 9em;
+      text-align: left;
+      padding-left: 60px;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+      height: 0;
+      overflow: hidden;
+      transition: height .95s;
+      text-align: left;
+      padding-left: 60px;
+
+}
+
+@media (max-width: 576px) {
+	.accordion-item-content,
+	.accordion:hover .accordion-item-content {
+	      height: 0;
+	      overflow: hidden;
+	      transition: height .95s;
+	      text-align: left;
+	      padding-left: 10px;
+
+	}
+	
+	.accordion:hover .accordion-item:hover .accordion-item-content,
+	.accordion .accordion-item--default .accordion-item-content {
+      padding-left: 10px;
+	}
+}

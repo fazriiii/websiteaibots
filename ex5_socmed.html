@@ -13,7 +13,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
@@ -27,96 +27,160 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
 <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
+<!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 <!-- Css-added -->
 	<link rel="stylesheet" type="text/css" href="css/main-added.css">
+	<link rel="stylesheet" type="text/css" href="css/accordion-menu.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <!--===============================================================================================-->
+
 </head>
 <body class="animsition">
+<div class="modalBackground">
 
 	<!-- Header -->
 	<header>
-		<!-- Header desktop -->
-		<div class="wrap-menu-header gradient1 trans-0-4">
-			<div class="container h-full">
-				<div class="wrap_header trans-0-3">
-					<!-- Logo -->
-					<div class="logo">
-						<a href="index.html">
-							<img src="images/icons/aibots-white.png" alt="IMG-LOGO" style="width: 200px;" data-logofixed="images/icons/aibots-black.png">
-							<!---->
-						</a>
-					</div>
-
-					<!-- Menu -->
-					<div class="wrap_menu p-l-45 p-l-0-xl">
-						<nav class="menu">
-							<ul class="main_menu">
-								<li>
-									<a href="index.html">How We Help Clients</a>
-								</li>
-
-								<li>
-									<a href="ourpeople.html">Our People</a>
-								</li>
-
-								<li class="dropdown">
-									<a href="#" class="dropbtn"> Industry Revolution <i class="fas fa-angle-down p-l-5"></i></a>
-										<div class="dropdown-content">
-											<p class="title_industry toupper fw-600" style="color: white">Industry Revolution 4.0</p>
-											<a href="rpa.html" style="font-size: 12px;">Robotic Process Automation</a>
-											<a href="digitalmarket.html"  style="font-size: 12px;">Digital Marketing</a>
-											<p class="title_industry toupper fw-600"  style="color: white">Industry Revolution 5.0</p>
-											<a href="artificialintel.html"  style="font-size: 12px;">Artificial Intelligence</a>
-								        </div>
-								</li>
-								
-								<li class="dropdown">
-									<a href="#" class="dropbtn active"> Our Insight <i class="fas fa-angle-down p-l-5"></i></a>
-										<div class="dropdown-content">
-											<p class="title_industry toupper fw-600" style="color: white">Analytic</p>
-								          	<a href="insight_bigdata.html" style="font-size: 12px;"> Big Data Analytic </a>
-											<a href="insight_socmed.html" class="active" class="active" style="font-size: 12px;"> Social Media Analytic </a>
-								        </div>
-								</li>
-
-								<li>
-									<a href="contactus.html">Contact Us</a>
-								</li>
-
-							</ul>
-						</nav>
-					</div>
-				</div>
+	<!-- Header desktop -->
+	<div class="wrap-menu-header gradient1 trans-0-4">
+	  <div class="container h-full">
+	    <div class="wrap_header trans-0-3">
+			<!-- Logo -->
+			<div class="logo">
+			<a href="index.html">
+			  <img src="images/icons/aibots-white.png" alt="IMG-LOGO" style="width: 200px;" data-logofixed="images/icons/aibots-black.png">
+			  <!---->
+			</a>
 			</div>
-		</div>
+
+			<!-- Menu -->
+			<div class="wrap_menu p-l-45 p-l-0-xl">
+			<nav class="menu">
+			  <ul class="main_menu">
+			    <li>
+			      <a href="index.html">Why Us</a>
+			    </li>
+
+			    <li>
+			      <a href="aboutus.html">About Us</a>
+			    </li>
+
+			    <li class="dropdown">
+			      <a href="#" class="dropbtn active"> Our Expertise <i class="fas fa-angle-down p-l-5"></i></a>
+			        <div class="dropdown-content">
+			          <a href="ex1_rpa.html" style="font-size: 12px;">Robotic Process Automation</a>
+			          <a href="ex2_digitalmarket.html" style="font-size: 12px;">Digital Marketing</a>
+			          <a href="ex3_artificialintel.html" style="font-size: 12px;">Artificial Intelligence</a>
+			          <a href="ex4_bigdata.html" style="font-size: 12px;"> Big Data Analytic </a>
+			          <a href="#" class="active" style="font-size: 12px;"> Social Media Analytic </a>
+			        </div>
+			    </li>
+			    
+			    <!--
+			    <li class="dropdown">
+			      <a href="#" class="dropbtn"> Industry Revolution <i class="fas fa-angle-down p-l-5"></i></a>
+			        <div class="dropdown-content">
+			          <p class="title_industry toupper fw-600" style="color: white">Industry Revolution 4.0</p>
+			          <a href="rpa.html" style="font-size: 12px;">Robotic Process Automation</a>
+			          <a href="digitalmarket.html"  style="font-size: 12px;">Digital Marketing</a>
+			          <p class="title_industry toupper fw-600"  style="color: white">Industry Revolution 5.0</p>
+			          <a href="artificialintel.html"  style="font-size: 12px;">Artificial Intelligence</a>
+			            </div>
+			    </li>
+			    
+			    <li class="dropdown">
+			      <a href="#" class="dropbtn"> Our Insight <i class="fas fa-angle-down p-l-5"></i></a>
+			        <div class="dropdown-content">
+			          <p class="title_industry toupper fw-600" style="color: white">Analytic</p>
+			                <a href="insight_bigdata.html" style="font-size: 12px;"> Big Data Analytic </a>
+			          <a href="insight_socmed.html" style="font-size: 12px;"> Social Media Analytic </a>
+			            </div>
+			    </li>
+				-->
+
+			    <li>
+			      <a href="contactus.html">Contact Us</a>
+			    </li>
+
+			  </ul>
+			</nav>
+			</div>
+
+	      	<!-- Button Sidebar -->
+			<div class="social flex-w flex-l-m p-r-20">
+				<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+			</div>
+			<!-- -->
+	    </div>
+	  </div>
+	</div>
 	</header>
+
+	<!-- Sidebar -->
+	<aside class="sidebar trans-0-4">
+		<!-- Button Hide sidebar -->
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+		<!-- - -->
+		<ul class="menu-sidebar accordion p-t-95 p-b-70">
+			<li class="t-center accordion-item m-b-13 txt36">
+				<a href="index.html">Why Us</a>
+			</li>
+
+			<li class="t-center accordion-item m-b-13 txt36">
+				<a href="aboutus.html">About Us</a>
+			</li>
+
+			<li class="t-center accordion-item m-b-13 dropdown txt36 p-b-10">
+			    <a href="#" class="active"> Our Expertise <i class="fas fa-angle-down p-l-5"></i></a>
+			        <div class="accordion-item-content p-t-5 txt37">
+				          <a href="ex1_rpa.html"><i class="fas fa-angle-right p-l-5"></i> Robotic Process Automation</a></br>
+				          <a href="ex2_digitalmarket.html"><i class="fas fa-angle-right p-l-5"></i> Digital Marketing</a></br>
+				          <a href="ex3_artificialintel.html"><i class="fas fa-angle-right p-l-5"></i> Artificial Intelligence</a></br>
+				          <a href="ex4_bigdata.html"><i class="fas fa-angle-right p-l-5"></i> Big Data Analytic</a></br>
+				          <a href="#" class="active"><i class="fas fa-angle-right p-l-5"></i> Social Media Analytic</a>
+			        </div>
+			</li>
+
+			<li class="t-center accordion-item m-b-13 txt36">
+				<!-- Button3 -->
+				<a href="contactus.html" class="btn4 flex-c-m size13 m-l-r-auto">
+					Contact Us
+				</a>
+			</li>
+		</ul>
+
+	</aside>
 
 
 	<!-- Welcome -->
 	<section class="section-welcome p-t-120 p-b-85">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-10 p-t-30 p-b-30">
+			<div class="row">
+				<h5 class="tit3 t-left m-b-35 m-t-5 p-l-15 p-t-15 toupper" style="font-size: 22.5px">
+					Social Media Analytic
+				</h5>
+			</div>
+			<div class="row justify-content-left">
+				<div class="col-md-6 p-b-30" style="margin-top: -30px">
 					<div class="wrap-text-welcome t-center">
-						<h5 class="tit3 t-left m-b-5 m-t-5 toupper" style="font-size: 30px">
-							Social Media Analytic
-						</h5>
 						
-						<p class="t-justify m-b-22" align="justify"></br>
+						<p class="t-justify m-b-22 size3" align="left"></br>
 							An effective strategy begins with a thorough assessment of the social media environment, including a comprehensive understanding of the customers and their needs.<br><br> Building on our experience across industries developing successful strategies, we help clients define a clear vision, determine investment needs for optimal returns, create an organization plan that works for each unique company, and develop a detailed implementation road map with check points to manage risk. And then we help our clients execute the strategy.
 						</p>
 
 					</div>
-				</div>			
+				</div>
+				<div class="col-md-6">
+					<img src="images/Social-Analytics.jpg" style="width: 100%; height: auto;">	
+				</div>
+
 			</div>
 
-			<div class="row justify-content-center">
-					<img src="images/Social-Analytics.jpg">
-			</div>
 		</div>
 	</section>
 

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aibots | Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="images/icons/aibotslogo-icon.ico"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<!--===============================================================================================-->
+<style type="text/css">
+  .accordion:hover .accordion-item:hover .accordion-item-content,
+  .accordion .accordion-item--default .accordion-item-content {
+      height: 6em;
+  }
+
+  .accordion-item-content,
+  .accordion:hover .accordion-item-content {
+      height: 0;
+      overflow: hidden;
+      transition: height .25s;
+  }
+
+/* Aesthetic */
+
+body {
+  background: #222;
+}
+
+.accordion {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "PT Sans" sans-serif
+}
+
+.accordion .accordion-item {
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  color: #eee;
+}
+
+.accordion h1 {
+  margin: 0;
+}
+
+.accordion .accordion-item:nth-child(1) {
+  background-color: hsl(200, 80%, 60%);
+  background-image: linear-gradient(-90deg, hsl(200, 80%, 60%), hsl(200, 80%, 45%) 2em, hsl(200, 80%, 60%));
+
+}
+
+.accordion .accordion-item:nth-child(2) {
+  background-color: hsl(280, 60%, 45%);
+  background-image: linear-gradient(-90deg, hsl(280, 80%, 60%), hsl(280, 60%, 45%) 2em, hsl(280, 80%, 60%));
+}
+
+.accordion .accordion-item:nth-child(3) {
+  background-color: hsl(40, 80%, 40%);
+  background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
+}
+
+.accordion .accordion-item:nth-child(4) {
+  background-color: hsl(80, 40%, 40%);
+  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
+}
+
+</style>
+</head>
+<body>
+
+<div class="accordion">
+    <section class="accordion-item">
+        <h1>Section 1</h1>
+        <div class="accordion-item-content">
+          <p>Content for section 1</p>
+        </div>
+    </section>
+    <section class="accordion-item">
+        <h1>Section 2</h1>
+        <div class="accordion-item-content">
+          <p>Content for section 2</p>
+        </div>
+    </section>
+    <section  class="accordion-item">
+        <h1>Section 3</h1>
+        <div class="accordion-item-content">
+          <p>Content for section 3</p>
+          <p>This is my default state.</p>
+        </div>
+    </section>
+    <section class="accordion-item">
+        <h1>Section 4</h1>
+        <div class="accordion-item-content">
+          <p>Content for section 4</p>
+        </div>
+    </section>
+</div>
+
+<!--
+<script type="text/javascript">
+(function ($) {
+
+  $(".panel-heading").parent('.panel').mouseenter(
+  function() {
+    $(this).children('.collapse').collapse('show');
+  });
+  
+$(".panel-heading").parent('.panel').mouseleave(
+function() {
+    $(this).children('.collapse').collapse('hide');
+  });
+
+
+
+});
+</script>    
+
+-->
+
+<!--===============================================================================================-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+  <script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+  <script type="text/javascript">
+        $('.parallax100').parallax100();
+  </script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+  <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+  <script src="js/main.js"></script>
+<!--===============================================================================================-->
+<!-- Js-added -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/main-added.js"></script>
+
+</body>
+</html>
