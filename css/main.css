@@ -1031,19 +1031,12 @@ input[type="date" i] {
   .wrap-text-welcome .subtit2 {
     font-size: 10px;
   }
-}
 
-/*[ image ]
------------------------------------------------------------
-
-*/
-
-@media (max-width: 576px) {
   .wrap-slick1 .resimg1 {
     height: auto;
     width: 100%;
   }
-
+}
 
 /*[ Button1 ]
 ///////////////////////////////////////////////////////////
