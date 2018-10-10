@@ -31,3 +31,9 @@
       padding-left: 10px;
 	}
 }
+
+/* for " accordion-item-content a " */
+.fa-xs5 {
+	font-size: 0.5em;
+	vertical-align: middle;
+}

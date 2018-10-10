@@ -1032,6 +1032,10 @@ input[type="date" i] {
     font-size: 10px;
   }
 
+  .wrap-text-welcome .subtit3 {
+    font-size: 11px;
+  }
+
   .wrap-slick1 .resimg1 {
     height: auto;
     width: 100%;
