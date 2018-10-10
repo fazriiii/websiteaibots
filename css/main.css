@@ -1005,6 +1005,15 @@ input[type="date" i] {
 /*[ Caption ]
 -----------------------------------------------------------
 */
+.wrap-text-welcome .section-pad {
+    padding-top: 80px;
+  }
+
+.section-welcome {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
     font-size: 70px;
@@ -1036,10 +1045,31 @@ input[type="date" i] {
     font-size: 11px;
   }
 
+  .wrap-text-welcome .subtit4 {
+    font-size: 16px;
+  }
+
   .wrap-slick1 .resimg1 {
     height: auto;
     width: 100%;
   }
+
+  .wrap-text-welcome .section-pad {
+    padding-top: 20px;
+  }
+
+  .section-welcome {
+    padding-top: 30px;
+    padding-bottom: 30px
+  }
+
+  .end-footer .txt17{
+    font-family: Noto+Sans;
+    font-size: 11px;
+    line-height: 1.7;
+    color: #999999;
+    }
+
 }
 
 /*[ Button1 ]

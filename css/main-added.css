@@ -323,13 +323,14 @@ input[type=submit]:hover {
 .containercontact {
     border-radius: 5px;
     background-color: rgb(192,192,192,0.5);
-    padding: 5px 30px;
-    height:90%;
+    padding: 30px;
+    height:100%;
 }
 
 @media (max-width: 576px) {
     .containercontact {
-        height:102%;
+        padding: 20px;
+        height:100%;
     }
 }
 
@@ -343,6 +344,6 @@ textarea.form {
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-bottom: 10px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
