@@ -353,3 +353,15 @@ textarea.form {
     margin-bottom: 10px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
+/* Slider */
+.animsition .section-welcome2 .container .wrap-text-welcome h3.popup-title span {
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 30px
+}
+.hr-title {
+    border-bottom:.1875rem solid white;
+    width: 15%;
+    margin-bottom: 20px;
+}

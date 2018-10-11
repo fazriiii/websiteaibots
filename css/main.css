@@ -1014,6 +1014,11 @@ input[type="date" i] {
     padding-bottom: 100px;
   }
 
+.section-welcome2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
     font-size: 70px;
@@ -1044,6 +1049,9 @@ input[type="date" i] {
   .wrap-text-welcome .subtit3 {
     font-size: 11px;
   }
+  .wrap-text-welcome .subtit3 p {
+    font-size: 11px;
+  }
 
   .wrap-text-welcome .subtit4 {
     font-size: 16px;
@@ -1062,9 +1070,20 @@ input[type="date" i] {
     padding-top: 30px;
     padding-bottom: 30px
   }
+  .section-welcome2 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .section-welcome2 h3.popup-title span {
+    font-size: 20px;
+  }
 
   .animsition .mobile-header {
     padding-top: 110px;
+  }
+
+  .section-welcome .mobile-index-subcon {
+    padding-top: 20px;
   }
 
   .end-footer .txt17{
