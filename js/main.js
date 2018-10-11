@@ -92,6 +92,38 @@
 
     /*[ Index Modal Explore ]
     ===========================================================*/
+    /*--- Explore-4.0 ---*/
+    var srcOld = $('.video-mo-01').children('iframe').attr('src');
+
+    $('[data-target="#Explore-4_0"]').on('click',function(){
+        $('.video-mo-01').children('iframe')[0];
+
+        setTimeout(function(){
+            $('.video-mo-01').css('opacity','1');
+        },300);      
+    });
+
+    $('[data-dismiss="modal"]').on('click',function(){
+        $('.video-mo-01').children('iframe')[0].src = srcOld;
+        $('.video-mo-01').css('opacity','0');
+    });
+
+    /*--- Explore-5.0 ---*/
+    var srcOld = $('.video-mo-01').children('iframe').attr('src');
+
+    $('[data-target="#Explore-5_0"]').on('click',function(){
+        $('.video-mo-01').children('iframe')[0];
+
+        setTimeout(function(){
+            $('.video-mo-01').css('opacity','1');
+        },300);      
+    });
+
+    $('[data-dismiss="modal"]').on('click',function(){
+        $('.video-mo-01').children('iframe')[0].src = srcOld;
+        $('.video-mo-01').css('opacity','0');
+    });
+
     /*--- Explore-End-To-End ---*/
     var srcOld = $('.video-mo-01').children('iframe').attr('src');
 

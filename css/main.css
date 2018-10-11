@@ -1438,6 +1438,50 @@ body {padding-right: 0px !important;}
   background-color: transparent;
 }
 
+#Explore-4_0 {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1250;
+  
+}
+
+#Explore-4_0 .modal-dialog {
+  max-width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#Explore-5_0 {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1250;
+  
+}
+
+#Explore-5_0 .modal-dialog {
+  max-width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 #Explore-End-To-End {
   background-color: rgba(0,0,0,0.5);
   z-index: 1250;

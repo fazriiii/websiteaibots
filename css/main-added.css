@@ -182,15 +182,26 @@ body.modal-open .modalBackground {
      filter: blur(10px);
  }
 
- .animsition .wrap_menu li a.active,
- .animsition .wrap_menu li.dropdown a.active {
+ .animsition .wrap_menu li a.active {
     color:#ec1d25;
     background-color: rgb(211,211,211,0.5);
     border-radius: 25px;
     font-weight: 900;
     font-size: 16px;
-    
  }
+
+ /* for menu on submenu active page */
+ .animsition .wrap_menu li.dropdown a.active {
+    background-color: transparent;
+    color:#ec1d25;
+    font-weight: 900;
+    font-size: 16px;
+ }
+ .animsition .wrap_menu li.active {
+    background-color: rgb(211,211,211,0.5);
+    border-radius: 25px;
+ }
+ /* --- */
 
  .animsition .wrap_menu li.dropdown div.dropdown-content a.active {
     color:#ec1d25;
