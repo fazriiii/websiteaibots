@@ -1063,6 +1063,10 @@ input[type="date" i] {
     padding-bottom: 30px
   }
 
+  .animsition .mobile-header {
+    padding-top: 110px;
+  }
+
   .end-footer .txt17{
     font-family: Noto+Sans;
     font-size: 11px;
