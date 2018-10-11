@@ -1,0 +1,86 @@
+p.drive {
+  border: none;
+  padding: 40px;
+}
+p.drive::before, p.drive::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.drive {
+  color:transparent;
+  animation:animatetest 5s infinite linear alternate; /*standardize for all browsers*/
+}
+/* Important for position animation correctly */
+.drive::before, .drive::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+/* Top & Bottom with length animation */
+.drive::before {
+  border-top: 2px solid #ec1d25;
+  border-bottom: 2px solid #ec1d25;
+  -webkit-transform: scale3d(0, 1, 1);
+          transform: scale3d(0, 1, 1);
+          animation:animatetest 5s infinite linear alternate; /*standardize for all browsers*/
+}
+/* Side with compressing animation */
+.drive::after {
+  border-left: 2px solid #ec1d25;
+  border-right: 2px solid #ec1d25;
+  -webkit-transform: scale3d(1, 0, 1);
+          transform: scale3d(1, 0, 1);
+          animation:animatetest 5s infinite linear alternate;
+}
+
+/* use :hover function to auto animate */
+@keyframes animatetest {
+    0% {}
+    20%{}     
+    60%{border-radius: 0px;}
+    80% {color: #ec1d25;
+          border-radius: 20px;
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          transition: -webkit-transform color 0.5s;
+          transition: color 0.5s;}
+    100%{}
+}
+
+/*------------------*/
+/* Logo Animate */
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {}
+  40%{
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+
+  60% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  100%{}
+}
+
+.logo-animated {
+  -webkit-animation: flip-vertical-right 3s linear infinite alternate both;
+          animation: flip-vertical-right 3s linear infinite alternate both;
+}
