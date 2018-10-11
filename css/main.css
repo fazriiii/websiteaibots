@@ -1019,6 +1019,11 @@ input[type="date" i] {
     padding-bottom: 10px;
   }
 
+  .section-welcome3 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
     font-size: 70px;
