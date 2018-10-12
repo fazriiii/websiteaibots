@@ -1024,6 +1024,10 @@ input[type="date" i] {
     padding-bottom: 50px;
   }
 
+  .section-welcome .header-cont {
+    padding-top: 30px;
+  }
+
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
     font-size: 70px;
@@ -1061,6 +1065,9 @@ input[type="date" i] {
   .wrap-text-welcome .subtit4 {
     font-size: 16px;
   }
+  .wrap-text-welcome .subtit4 p {
+    font-size: 16px;
+  }
 
   .wrap-slick1 .resimg1 {
     height: auto;
@@ -1075,12 +1082,18 @@ input[type="date" i] {
     padding-top: 30px;
     padding-bottom: 30px
   }
+  .section-welcome .header-cont {
+    padding-top: 20px;
+  }
   .section-welcome2 {
     padding-top: 30px;
     padding-bottom: 0px;
   }
   .section-welcome2 h3.popup-title span {
     font-size: 20px;
+  }
+  .section-welcome3 .wrap-text-welcome {
+
   }
 
   .animsition .mobile-header {
