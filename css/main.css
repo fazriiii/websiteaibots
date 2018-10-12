@@ -1009,6 +1009,13 @@ input[type="date" i] {
     padding-top: 80px;
   }
 
+.wrap-text-welcome .top-man {
+    padding-left: 200px;
+  }
+.wrap-text-welcome .top-man2 {
+    padding-right: 200px;
+  }
+
 .section-welcome {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1021,6 +1028,10 @@ input[type="date" i] {
 
   .section-welcome3 {
     padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .section-welcome4 {
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 
@@ -1067,6 +1078,12 @@ input[type="date" i] {
   }
   .wrap-text-welcome .subtit4 p {
     font-size: 16px;
+  }
+  .wrap-text-welcome .top-man {
+    padding-left: 20px;
+  }
+  .wrap-text-welcome .top-man2 {
+    padding-right: 10px;
   }
 
   .wrap-slick1 .resimg1 {
